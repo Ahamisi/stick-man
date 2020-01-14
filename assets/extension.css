@@ -1,0 +1,719 @@
+@import url('https://fonts.googleapis.com/css?family=Bai+Jamjuree:300,400,400i,500,600,700&display=swap');
+
+body{ margin-top:80px; line-height:0px; overflow-x:hidden;}
+@media (max-width:769px) {
+	body{ margin-top:65px;}}
+	
+.overflow{overflow-y: hidden; overflow-x:hidden;}
+@media (max-width:769px) {
+    .overflow{overflow-x: hidden !important;}
+.nav-footer{
+    display: none;
+}
+}
+	
+.shadow {
+    box-shadow: 0 .5rem 1rem rgba(255,255,255,.15)!important;}
+	
+img{ max-width:100%; height:auto;}
+.clear{ clear:both;}
+.cursor{ cursor:pointer;}
+
+.topP5{ padding-top:5px;}
+.topP10{ padding-top:10px;}
+.topP13{ padding-top:13px;}
+.topP15{ padding-top:15px;}
+.topP20{ padding-top:20px;}
+.topP25{ padding-top:25px;}
+.topP30{ padding-top:30px;}
+.topP40{ padding-top:40px;}
+.topP50{ padding-top:50px;}
+.topP55{ padding-top:55px;}
+.topP60{ padding-top:60px;}
+.topP100{ padding-top:100px;}
+
+.leftP20{ padding-left:20px;}
+.leftP40{ padding-left:40px;}
+
+.bottomP5{ padding-bottom:5px;}
+.bottomP10{ padding-bottom:10px;}
+.bottomP15{ padding-bottom:15px;}
+.bottomP20{ padding-bottom:20px;}
+.bottomP30{ padding-bottom:30px;}
+.bottomP40{ padding-bottom:40px;}
+
+.bottomP40Mo{ padding-bottom:40px;}
+@media (max-width:700px) {.bottomP40Mo{ padding-bottom:20px;}}
+
+
+.rowTP10{ padding-top:0px}
+@media (max-width:769px) {.rowTP10{ padding-top:10px}}
+
+.rowTP20{ padding-top:0px}
+@media (max-width:769px) {.rowTP20{ padding-top:20px}}
+
+.rowTP30{ padding-top:0px}
+@media (max-width:769px) {.rowTP30{ padding-top:30px}}
+
+.rowTP40{ padding-top:0px}
+@media (max-width:769px) {.rowTP40{ padding-top:40px}}
+
+.rowTP30I2{ padding-top:0px}
+@media (max-width:760px) {.rowTP30I2{ padding-top:30px}}
+
+.rowTP20Mo{ padding-top:0px}
+@media (max-width:700px) {.rowTP20Mo{ padding-top:20px}}
+
+.rowTP30Mo{ padding-top:0px}
+@media (max-width:700px) {.rowTP30Mo{ padding-top:30px}}
+
+.rowTP30I{ padding-top:0px}
+@media (max-width:769px) {.rowTP30I{ padding-top:30px}}
+@media (max-width:700px) {.rowTP30I{ padding-top:0px}}
+
+.rowTP40Mo{ padding-top:0px}
+@media (max-width:700px) {.rowTP40Mo{ padding-top:40px}}
+
+.roTP55{ padding-top:55px;}
+@media (max-width:769px) {.roTP55{ padding-top:20px;}}
+
+.roTP100{ padding-top:100px;}
+@media (max-width:769px) {.roTP100{ padding-top:20px;}}
+
+.rowBPOv{ padding-bottom:100px}
+@media (max-width:769px) {.rowBPOv{ padding-bottom:20px}}
+@media (max-width:760px) {.rowBPOv{ padding-bottom:30px}}
+
+.LocTP{ padding-top:70px; padding-bottom:30px;}
+@media (max-width:769px) {.LocTP{ padding-top:30px; padding-bottom:10px;}}
+
+.rowCoP{ padding-right:20px;}
+@media (max-width:769px) {.rowCoP{ padding-right:0px;}}
+
+.rowCoP2{ padding-right:20px; padding-left:20px;}
+@media (max-width:769px) {.rowCoP2{ padding-right:0px; padding-left:0px;}}
+
+.rowCoP3{ padding-left:20px;}
+@media (max-width:769px) {.rowCoP3{ padding-left:0px;}}
+
+.borderRed10{ border-top:10px solid #D9341A;}
+.borderOr10{ border-top:10px solid #F57F18;}
+.borderOr2{ border-top:2px solid #F57F18;}
+.borderGF{ border:1px solid #D8D9D9;}
+.borderBY2{ border-bottom:2px solid #fed42a;}
+
+.logoP{float: left;
+	height: 50px;
+	padding: 15px 15px 15px 0px;
+	font-size: 18px;
+	line-height: 20px}
+@media (max-width:1024px) {.logoP{float: left;
+	height: 50px;
+	padding: 15px 15px 15px 0px;
+	font-size: 18px;
+	line-height: 20px;
+	max-width:75%; height:auto;}}
+@media (max-width:769px) {.logoP{float: left;
+	height: 50px;
+	padding: 15px 15px 15px 0px;
+	font-size: 18px;
+	line-height: 20px;
+	max-width:100%; height:auto;}}
+	
+.fontBold{font-family: 'Bai Jamjuree', sans-serif; font-weight:700;}
+
+.sectionP{ padding-top:60px;}
+.sectionP20{ padding-top:20px;}
+
+.alignRL{ text-align:right;}
+@media (max-width:766px) {.alignRL{ text-align:left;}}
+
+.topP10R{padding-top:0px;}
+@media (max-width:766px) {.topP10R{padding-top:10px;}}}
+
+.iconMH{ min-height:100px; padding-top:10px;}
+
+/*---------------------------------------------------*/
+.basCom{ position:relative;}
+.left-center{ position:absolute;
+left:20px; top:-30px;}
+.left-bottom{ position:absolute;
+left:5px; bottom:5px;}
+.right-top{ position:absolute;
+right:5px; top:5px;}
+.center-middle{ position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);}
+
+/*---------------------------------------------------*/
+.OrgBg{ background-color:#F57F18; padding:12px 10px 10px 10px; text-align:center; font-family: 'Bai Jamjuree', sans-serif; font-weight:700; color:#fff; line-height:20px; font-size:20px; }
+@media (max-width:1024px) {.OrgBg{padding:12px 10px 10px 130px; font-size:20px; }}
+@media (max-width:769px) {.OrgBg{ background-color:#F57F18; padding:12px 10px 10px 150px; text-align:center; font-family: 'Bai Jamjuree', sans-serif; font-weight:700; color:#fff; line-height:20px; font-size:15px; }}
+
+.OveBg{ background-image:url(../images/overview-bg.jpg); background-position:right bottom; background-repeat:no-repeat;}
+@media (max-width:1024px) {.OveBg{ background-image:url(../images/overview-bg2.jpg); background-position:right bottom; background-repeat:no-repeat;}}
+@media (max-width:769px) {.OveBg{ background-image:url(../images/overview-bgM1.jpg); background-position:right bottom; background-repeat:no-repeat;}}
+
+.RetBg{ background-image:url(../images/retail-bg.png); background-position:right bottom; background-repeat:no-repeat;}
+@media (max-width:769px) {.RetBg{ background-image:url(../images/retail-bg1.png); background-position:right bottom; background-repeat:no-repeat;}}
+
+.LocBg{ background-image:url(../images/Location-bg.png); background-position:right bottom; background-repeat:no-repeat;}
+@media (max-width:769px) {.LocBg{ background-image:url(../images/Location-bg1.png); background-position:right bottom; background-repeat:no-repeat;}}
+
+.SpeBg{ background-image:url(../images/Specifications-bg.png); background-position:right bottom; background-repeat:no-repeat;}
+@media (max-width:769px) {.SpeBg{ background-image:url(../images/Specifications-bg1.png); background-position:right bottom; background-repeat:no-repeat;}}
+
+.OffiBg{ background-image:url(../images/office-bg.jpg); background-position:right bottom; background-repeat:no-repeat;}
+@media (max-width:769px) {.OffiBg{ background-image:url(../images/office-bg1.jpg); background-position:right bottom; background-repeat:no-repeat;}}
+
+.DevBg{ background-image:url(../images/developer-bg.png); background-position:right bottom; background-repeat:no-repeat;}
+@media (max-width:769px) {.DevBg{ background-image:url(../images/developer-bg1.png); background-position:right bottom; background-repeat:no-repeat;}}
+
+.DownBg{background-image:url(../images/Download-banner.jpg); background-position:center bottom; background-repeat:no-repeat; min-height:443px;}
+@media (max-width:769px) {.DownBg{url(../images/Download-banner.jpg); background-position:center bottom; background-repeat:no-repeat;}}
+
+.text15{color: #173669;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 60px;}
+.text15B{color: #173669;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 60px;}
+@media (max-width:769px) {
+	.text15{color: #173669;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 35px;}
+.text15B{color: #173669;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 35px;}}
+@media (max-width:640px) {
+.text15{color: #173669;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;}
+.text15B{color: #173669;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;}}
+	
+/*-----------------------------------------*/
+/*------------------ divider ------------------------*/
+  .row.vdivide [class*='col-']:not(:last-child):after {
+  background: #C3C4C4;
+  width: 1px;
+  content: "";
+  display:block;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  right: 0;}
+  @media (max-width:640px) {
+	    .row.vdivide [class*='col-']:not(:last-child):after {
+  background: #C3C4C4;
+  width: 0px;
+  content: "";
+  display:block;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  right: 0;}}
+  
+   .row.vdivide2 [class*='col-']:not(:last-child):after {
+  background: #FFCF30;
+  width: 2px;
+  content: "";
+  display:block;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  right: 0;}
+  @media (max-width:640px) {
+	    .row.vdivide2 [class*='col-']:not(:last-child):after {
+  background: #C3C4C4;
+  width: 0px;
+  content: "";
+  display:block;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  right: 0;}}
+  
+     .row.vdivide3 [class*='col-']:not(:last-child):after {
+  background: #FFCF30;
+  width: 2px;
+  content: "";
+  display:block;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  right: 0;}
+  @media (max-width:769px) {
+	    .row.vdivide3 [class*='col-']:not(:last-child):after {
+  background: #C3C4C4;
+  width: 0px;
+  content: "";
+  display:block;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  right: 0;
+  }}
+  
+      .row.vdivide4 [class*='col-']:not(:last-child):after {
+  background: #FFCF30;
+  width: 1px;
+  content: "";
+  display:block;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  right: 0;}
+  @media (max-width:769px) {
+	    .row.vdivide4 [class*='col-']:not(:last-child):after {
+  background: #C3C4C4;
+  width: 0px;
+  content: "";
+  display:block;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  right: 0;
+  }}
+  
+  .dividerBB{border-bottom:0px solid #C3C4C4; padding-bottom:0px;}
+  @media (max-width:769px) {.dividerBB{border-bottom:2px solid #C3C4C4; padding-bottom:10px;}}
+
+/*----------------------------- ANCHOR TAG ----------------------------*/
+#ctn {
+  position: relative;
+  /*border: solid 1px green;
+  height: 100px;*/
+}
+
+#ctn a {
+  position: absolute;
+  left: 0px;
+  top: -30px;
+  border: solid 0px red;
+}
+
+#ctnHome {
+  position: relative;
+  /*border: solid 1px green;
+  height: 100px;*/
+}
+
+#ctnHome a {
+  position: absolute;
+  left: 0px;
+  top: -100px;
+  border: solid 0px red;
+}
+/*--------------------------------------------------*/
+.secNav{text-decoration: none;}
+.secNav a{padding: 10px;
+    margin-left:1px !important;
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+	background-color:#F57F18;}
+.secNav a:hover{
+    text-decoration: none;
+    color: #1A3864;
+	background-color:#fff;}
+.secNav .active{
+	font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    color: #1A3864;
+	background-color:#fff;}
+	
+.secNavOv{text-decoration: none;}
+.secNavOv a{padding: 10px;
+    margin-left:1px !important;
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+	background-color:#F57F18;}
+	@media (max-width:640px) {
+	.secNavOv a{border:1px solid #F57F18; padding:5px 8px; font-size: 14px;}}
+.secNavOv a:hover{
+    text-decoration: none;
+    color: #1A3864;
+	background-color:#fff;}
+.secNavOv .active{
+	font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    color: #1A3864;
+	background-color:#fff;}
+	
+.secNavRed{text-decoration: none;}
+.secNavRed a{padding: 10px;
+    margin-left:1px !important;
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+	background-color:#D9341A;}
+@media (max-width:640px) {
+	.secNavRed a{ border:1px solid #D9341A; padding:5px 8px; font-size: 14px;}}
+.secNavRed a:hover{
+    text-decoration: none;
+    color: #1A3864;
+	background-color:#fff;}
+.secNavRed .active{
+	font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    color: #1A3864;
+	background-color:#fff;}
+	
+.secNav2{text-decoration: none;}
+.secNav2 a{padding: 6px 10px;
+    margin-right:3px !important;
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+	background-color:#F57F18;
+	margin-top:3px;}
+.secNav2 a:hover{
+    text-decoration: none;
+    color: #1A3864;
+	background-color:#F57F18;}
+	
+	
+.secNavM{ margin-top:-53px !important;}
+.secNavMintro{ margin-top:-77px !important;}
+@media (max-width:1024px) {
+	.secNavMintro{ margin-top:-100px !important;}}
+	
+.secNavM2{ margin-top:-43px !important;}
+
+.secNavMRes{ margin-top:-53px !important;}
+@media (max-width:640px) {
+	.secNavMRes{ margin-top:0px !important;}}
+
+.secNavMRes2{ margin-top:-43px !important;}
+@media (max-width:1024px) {
+	.secNavMRes2{ margin-top:-50px !important;}}
+@media (max-width:769px) {
+	.secNavMRes2{ margin-top:-1px !important;}}
+/*----------------------------- END ----------------------------*/
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-image:url(../images/DP.png); background-position:left top; background-repeat:no-repeat;
+  width:115px;
+  /*height:120px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 0px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color:;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color:;}
+
+.dpLink{
+    text-decoration: none;
+    display:block;
+    color: #fff;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;}
+.dpLink a{padding:7px 0px 5px 0px;
+margin-left:15px;
+    text-decoration: none;
+    display:block;
+    color: #fff;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+	border-bottom:1px solid #ED7D00;}
+.dpLink a:hover{
+    text-decoration: none;
+    color: #ED7D00;}
+
+/*----------------------------------------------*/
+.textLS{font-family: 'Bai Jamjuree', sans-serif; 
+font-weight:400;
+letter-spacing:33px;
+font-size:33px;
+color:#173669;
+line-height:25px;}
+@media (max-width:1024px) {.textLS{letter-spacing:20px;}}
+@media (max-width:769px) {.textLS{letter-spacing:10px;}}
+@media (max-width:700px) {.textLS{letter-spacing:10px; font-size:25px; line-height:30px;}}
+
+.bodytext65{font-family: 'Bai Jamjuree', sans-serif; 
+font-weight:400;
+font-size:22px;
+color:#173669;
+line-height:25px;}
+
+.bodytext65B{font-family: 'Bai Jamjuree', sans-serif; 
+font-weight:600;
+font-size:22px;
+color:#173669;
+line-height:25px;}
+
+.bodytextOr6B{font-family: 'Bai Jamjuree', sans-serif; 
+font-weight:600;
+font-size:20px;
+color:#F57F18;
+line-height:23px;}
+
+.bodytextHome{font-family: 'Bai Jamjuree', sans-serif; 
+font-weight:500;
+font-size:19px;
+color:#173669;
+line-height:35px;}
+
+.bodytextHomeB2{font-family: 'Bai Jamjuree', sans-serif; 
+font-weight:700;
+font-size:19px;
+color:#173669;
+line-height:26px;}
+
+.bodytextHome2{font-family: 'Bai Jamjuree', sans-serif; 
+font-weight:700;
+font-size:19px;
+color:#173669;
+line-height:30px;}
+
+.bodytext{font-family: 'Bai Jamjuree', sans-serif; 
+font-weight:500;
+font-size:18px;
+color:#173669;
+line-height:22px;}
+
+.bodytextHomeB{font-family: 'Bai Jamjuree', sans-serif; 
+font-weight:700;
+font-size:19px;
+color:#173669;
+line-height:22px;}
+
+.bodytextHomeBB{font-family: 'Bai Jamjuree', sans-serif; 
+font-weight:700;
+font-size:20px;
+color:#173669;
+line-height:22px;}
+
+.bodytextSm{font-family: 'Bai Jamjuree', sans-serif; 
+font-weight:400;
+font-size:17px;
+color:#173669;
+line-height:22px;}
+
+.bodytextSmB{font-family: 'Bai Jamjuree', sans-serif; 
+font-weight:600;
+font-size:17px;
+color:#173669;
+line-height:24px;}
+
+
+.bodytext35{font-family: 'Bai Jamjuree', sans-serif; 
+font-weight:500;
+font-size:16px;
+color:#173669;
+line-height:22px;}
+
+.accordionText{font-family: 'Bai Jamjuree', sans-serif; 
+font-weight:400;
+font-size:17px;
+color:#173669;
+line-height:23px;}
+
+.lineHe28{ line-height:28px !important;}
+
+/*-----------------FOOTER--------------------*/
+.footer{ background-image: url(../images/footerImg.jpg); background-position:center top; background-repeat:no-repeat; 
+background-color:#11294f;}
+@media (max-width:769px) {
+	.footer{ background-image: url(../images/footerImgM.jpg); background-position:center top; background-repeat:no-repeat; 
+background-color:#11294f;}}
+
+.footerOr{ background-color:#F57F18; padding:12px 0px 10px 0px; background-image:url(../images/shadow.png); background-position:center top; background-repeat:no-repeat;}
+
+.footerGr{ background-color:#D8D9D9; padding:7px 0px 5px 0px;}
+
+/*----------------*/
+.borderL1{ border-left:1px solid #D8D9D9;}
+
+.borderL{ border-left:1px solid #D8D9D9;}
+@media (max-width:769px) {.borderL{ border-left:0px solid #D8D9D9;}}
+
+.borderBY{ border-bottom:1px solid #FFCF30;}
+.borderBYMo{ border-bottom:0px solid #FFCF30;}
+@media (max-width:769px) {.borderBYMo{ border-bottom:1px solid #FFCF30;}}
+.borderBBlue{ border-bottom:1px solid #173669;}
+.borderBOrg{ border-bottom:1px solid #F57F18;}
+.borderBOrg2{ border-bottom:2px solid #F57F18;}
+
+/*----------------*/
+.footerText{font-family: 'Bai Jamjuree', sans-serif; 
+font-weight:400;
+font-size:14px;
+color:#D8D9D9;
+line-height:20px;}
+
+.footerLink {font-family: 'Bai Jamjuree', sans-serif; 
+font-weight:400;
+font-size:14px;
+color:#D8D9D9;
+text-decoration:none;
+line-height:20px}
+.footerLink a {font-family: 'Bai Jamjuree', sans-serif; 
+font-weight:400;
+font-size:14px;
+color:#D8D9D9;
+line-height:23px;
+text-decoration:none;}
+.footerLink a.hover {
+color:#D8D9D9;
+text-decoration:none;}
+
+.footerText2 {font-family: 'Bai Jamjuree', sans-serif; 
+font-weight:500;
+font-size:15px;
+color:#fff;
+text-decoration:none;
+line-height:22px;}
+
+.copyright{font-family: 'Bai Jamjuree', sans-serif; 
+font-weight:400;
+font-style:italic;
+font-size:12px;
+color:#313130;
+text-decoration:none;
+line-height:18px;}
+
+.copyrightW{font-family: 'Bai Jamjuree', sans-serif; 
+font-weight:400;
+font-style:italic;
+font-size:12px;
+color:#fff;
+text-decoration:none;
+line-height:18px;}
+
+.ulliMar{margin-left:-15px; margin-bottom:-15px;}
+@media (max-width:769px) {.ulliMar{margin-left:-20px; margin-bottom:-15px;}}
+
+.disFCo{ display:block;}
+@media (max-width:769px) {.disFCo{ display:none !important;}}
+
+.disFIp{ display:none !important;}
+@media (max-width:769px) {.disFIp{ display:block !important;}}
+
+
+.disCo{ display:block;}
+@media (max-width:640px) {.disCo{ display:none !important;}}
+.disFMo{ display:none !important;}
+@media (max-width:640px) {.disFMo{ display:block !important;}}
+
+.dis1024{ display:none !important;}
+@media (max-width:1024px) {.dis1024{ display:block !important;}}
+@media (max-width:769px) {.dis1024{ display:none !important;}}
+
+.disCoMo{ display:block !important;}
+@media (max-width:1024px) {.disCoMo{ display:none !important;}}
+@media (max-width:769px) {.disCoMo{ display:block !important;}}
+
+.actNav{color: #ed7d00 !important;
+	background:url(../images/bg.jpg) !important;
+	background-position:top center !important;
+	background-repeat:repeat-x !important;}
+@media (max-width:769px) {.actNav{color: #ed7d00 !important;
+	background:none !important;}}
+	
+	
+/*--------------google-maps--------------------*/
+ .google-maps {
+        position: relative;
+        padding-bottom: 75%; // This is the aspect ratio
+        height: 0;
+        overflow: hidden;
+    }
+    .google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+.bgGrey{ background-color:#F1F0F0; padding:20px 10px;}
+
+.borderOr2{ border-top:2px solid #F57F18;}
+
+/*-----------------------------------------*/
+.line {
+    position: relative;
+}
+
+.line span {
+    background-color: white;
+    padding-right: 10px;
+}
+
+.line:after {
+    content:"";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 0.5em;
+    border-bottom: 2px solid #F57F18;
+    z-index: -1;
+}
+.textOr6{ font-family: 'Bai Jamjuree', sans-serif; 
+font-weight:500;
+color:#F57F18;
+line-height:24px;
+font-size:22px;}
+
+.logoF{max-width:238px; min-width:238px; max-height:66px; min-height:66px;}
+@media (max-width:1024px) {.logoF{max-width:200px; min-width:200px; max-height:55px; min-height:55px;}}
+@media (max-width:769px) {.logoF{max-width:238px; min-width:238px; max-height:66px; min-height:66px;}}
